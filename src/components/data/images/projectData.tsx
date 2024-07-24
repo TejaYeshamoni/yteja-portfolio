@@ -1,6 +1,6 @@
-// import bg1 from "../data/images/ChatApp.jpg"
-// import porfolioImage from "../data/images/porfolio.jpg"
-// import evDashboard from "../data/images/EvDashboard.jpg"
+import netflix from "../../../assets/netflix.png"
+import nxtwatch from "../../../assets/nxtwatch.png"
+import jobby from "../../../assets/jobby.png"
 import reactIcons from "../../../svg/reactjs.svg"
 import tailwindIcons from "../../../svg/tailwindcsssvg.svg"
 import mongodbIcons from "../../../svg/mongo-svg.svg"
@@ -14,26 +14,26 @@ import scssIcon from "../../../svg/scss.svg"
 export const projects = [
   {
     id: 1,
-    title: "Personal Portfolio Design",
-    des: "Build my own personal portfolio design using Framer , Next.js , Typescript and Tailwind",
-    img: "",
-    iconLists: [typeScriptIcons, IconsNext,framerIcon, tailwindIcons, cssIcons],
-    link: "https://github.com/akku2005/personal-porfolio",
+    title: "NetflixGPT",
+    des: "Developed a high-performance Netflix clone with a modern tech stack, optimized for both desktop and mobile devices",
+    img: netflix,
+    iconLists: [reactIcons,nodeIcon, javascriptIcons,framerIcon, tailwindIcons, cssIcons],
+    link: "https://netflix-gpt-tej.vercel.app/",
   },
   {
     id: 2,
-    title: "Chatting Website using webRTC  ",
-    des: "- currently working Simplify your video conferencing experience with Chat-Chit-Hub. Seamlessly connect with colleagues and friends.",
-    img: "",
-    iconLists: [ reactIcons, tailwindIcons, mongodbIcons, javascriptIcons,nodeIcon],
-    link: "https://github.com/akku2005/chat-app",
+    title: "Nxt Watch",
+    des: "Developed the Nxt Watch platform, a YouTube-inspired application where users can access various video categories ,such as Trending, Gaming, and Saved videos, and search for specific content while customising the visual theme",
+    img: nxtwatch,
+    iconLists: [ reactIcons, javascriptIcons,nodeIcon,cssIcons],
+    link: "https://ytejanxtwatch.ccbp.tech",
   },
   {
     id: 3,
-    title: "Ev Dashboard",
-    des: "Build a Ev Dashboard for one of the startup company with major features like adding vehicle details and navigation .",
-    img: "",
-    iconLists: [reactIcons, scssIcon, tailwindIcons],
-    link: "https://github.com/akku2005/ev_dashboard",
+    title: "Jobby App",
+    des: "Developed a comprehensive job search solution, Jobby App.",
+    img: jobby,
+    iconLists: [reactIcons, scssIcon, cssIcons, nodeIcon,javascriptIcons],
+    link: "https://tejajobby.ccbp.tech",
   },
 ];
