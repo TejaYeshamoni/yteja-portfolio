@@ -1,7 +1,7 @@
 import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import Image from "next/image";
-// import profile from "../assets/profile.png"; // Uncomment if you use this
+import profile from "../assets/profile.jpg"
 
 const About: React.FC = () => {
   const resumeLink = "https://drive.google.com/file/d/1zET74OTZL2FfoLG8uP_Kv3eUh_ONSzC_/view?usp=sharing";
@@ -13,9 +13,9 @@ const About: React.FC = () => {
       <h1 className="text-center text-2xl font-bold text-gray-300">About</h1>
       <div className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between">
         {/* Image section */}
-        <div className="flex justify-center items-center w-full lg:w-1/2 mb-10 lg:mb-0">
+        <div className="flex justify-self-auto items-center w-full lg:w-1/2 mb-10 lg:mb-0">
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden">
-            <Image src={profileImageSrc} alt="profile image" layout="responsive" width={300} height={300} />
+            <Image src={profile} alt="profile image" layout="responsive" width={300} height={300} />
           </div>
         </div>
 
