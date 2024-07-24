@@ -148,7 +148,7 @@ const ContactMe: React.FC = () => {
           </div>
           <div className="w-full flex items-center justify-center mt-8 ">
             <a
-              href="https://x.com/AkashSa07314397"
+              href="https://x.com/Teja_yeshamoni"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-md drop-shadow-xl text-white hover:text-sky-500 transition duration-200"
@@ -163,7 +163,7 @@ const ContactMe: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/akashkumar-sahu-5b7897238"
+              href="https://www.linkedin.com/in/teja-yeshamoni/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-md drop-shadow-xl text-white hover:text-sky-700 transition duration-200 mx-4"
@@ -178,7 +178,7 @@ const ContactMe: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/akku2005"
+              href="https://github.com/TejaYeshamoni"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-md drop-shadow-xl text-white hover:text-rose-500 transition duration-200"

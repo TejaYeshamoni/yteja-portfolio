@@ -2,63 +2,63 @@ import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
-// import profile from "../assets/Gitaa.jpg"; // Ensure these imports are correct
-// import collageImage from "../assets/sharwashreeCollage.jpg";
-// import schoolImage from "../assets/agarkarVidyaBhawan.jpeg";
+import nxtwave from "../assets/nxtwave.png"
+import svdc from "../assets/svdc.jpg"
+import nets from "../assets/nets.jpg"
 
 const Education: React.FC = () => {
   const content = [
     {
-      title: "Graduation",
-      description: `Currently pursuing a Bachelor's degree in Computer Science from Gandhi Institute Of Technology and Advancement (GITA).
-        Expected to graduate in 2025.
-        GRADE: 8.45 CGPA`,
+      title: "Nxtwave Disruptive Technologies",
+      description: `Industry Ready Certification in Full-stack Development
+        Dec 2022 - 2023`,
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          <Image src={""} alt="profile" layout="responsive" />
+          <Image src={nxtwave} alt="Nxtwave" layout="responsive" />
         </div>
       ),
     },
     {
-      title: "12th Grade",
-      description: `Completed 12th from HSC (Maharashtra State Board) with a focus on Physics, Chemistry, and Mathematics. 2020-21.
-        GRADE: 88%`,
+      title: "Swami Vivekananda Degree And PG College, Mahabubnagar",
+      description: `BSc (Bachelor of Science) in Bio-Technology
+        2019 - 2022`,
       content: (
         <div className="h-full w-full flex items-center justify-center text-white">
           <Image
-            src={""}
+            src={svdc}
             width={300}
             height={300}
             className="h-full w-full object-cover"
-            alt="College Image"
+            alt="Swami Vivekananda College"
           />
         </div>
       ),
     },
     {
-      title: "10th Grade",
-      description: `Completed 10th SSC (Maharashtra State Board) from Agarkar Vidya Bhawan - 2019.
-        GRADE: 69.60%`,
+      title: "NEW ERA TALENT SCHOOL, BOOTHPUR, MAHABOOBNAGAR",
+      description: `Secondary School Of Certificate (9.2 CGPA)
+        2015 - 2016`,
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
+        <div className="h-full w-full flex items-center justify-center text-white">
           <Image
-            src={""}
+            src={nets}
             width={300}
             height={300}
             className="h-full w-full object-cover"
-            alt="School Image"
+            alt="New Era Talent School"
           />
         </div>
       ),
     },
   ];
+  
 
   return (
     <section id="education" className="hero text-white relative mt-8">
       <BackgroundBeams />
       <div className="container mx-auto px-4 py-20">
         <h1 className="text-3xl font-bold mb-6 text-center">Education</h1>
-        <StickyScroll content={content} />
+        <StickyScroll  content={content} />
       </div>
     </section>
   );
