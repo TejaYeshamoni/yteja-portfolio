@@ -6,7 +6,7 @@ import Image from "next/image";
 import profile from "../../assets/profile.jpg";
 
 export function BackgroundBeamsDemo() {
-  const words = ["Software Developer", "Web Developer"];
+  const words = ["MERN-Full Stack Developer", "Front-End Developer", "Back-End Developer"];
 
   return (
     <div id="home" className="min-h-screen flex flex-col ">
@@ -29,7 +29,7 @@ export function BackgroundBeamsDemo() {
         <div className="w-full lg:order-1">
           <div className="text-center lg:text-left text-2xl sm:text-4xl font-normal text-slate-300 dark:text-neutral-400 p-2 sm:p-4 lg:p-0">
             <span className="text-gray-600 m-0">Hi, I am</span>
-            <h1 className="text-2xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-sans font-bold m-0">
+            <h1 className="text-2xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-sans font-bold m-0 p-4">
               Teja Yeshamoni
             </h1>
             <span className="text-lg sm:text-2xl md:text-4xl">
