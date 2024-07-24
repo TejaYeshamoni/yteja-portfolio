@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <footer className="text-white bg-transparent font-thin">
         <BackgroundBeams />
         <div className="container mx-auto py-4 text-center">
-        <p className="text-sm">TEJA YESHAMONI Portfolio. All rights reserved.</p>
+        <p className="text-sm">TEJA YESHAMONI Portfolio All rights reserved.</p>
 
         </div>
       </footer>
