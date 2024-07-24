@@ -4,7 +4,7 @@ import Image from "next/image";
 // import profile from "../assets/profile.png"; // Uncomment if you use this
 
 const About: React.FC = () => {
-  const resumeLink = "https://drive.google.com/";
+  const resumeLink = "https://drive.google.com/file/d/1zET74OTZL2FfoLG8uP_Kv3eUh_ONSzC_/view?usp=sharing";
   const profileImageSrc = "/path/to/your/profile-image.png"; // Update this path
 
   return (
@@ -21,15 +21,42 @@ const About: React.FC = () => {
 
         {/* Bio section */}
         <div className="w-full lg:w-1/2 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-sans font-bold m-0">
-          <p className="text-lg md:text-xl mb-8">
-            I am a passionate full-stack developer with a strong focus on <span className="text-blue-500">Node.js</span> and <span className="text-teal-500">React.js</span>. I love creating seamless and interactive web experiences.
-            <br/><br/>
-            In my free time, I enjoy exploring new technologies, experimenting with different design patterns, and contributing to open-source projects.
-            <br/><br/>
-            My name is <span className="font-bold italic text-lime-500">Teja Yeshamoni</span>. I am a passionate Software Developer with a knack for creating elegant solutions and pushing the boundaries of technology. Skilled in <span className="text-yellow-500">Java</span>, <span className="text-red-500">JavaScript</span>, <span className="text-purple-500">MySQL</span>, <span className="text-indigo-500">HTML</span>, <span className="text-pink-500">CSS</span>, <span className="text-green-500">Tailwind CSS</span>, <span className="text-teal-500">React</span>, and <span className="text-green-500">Node.js</span>. I thrive in dynamic environments where I can apply my creativity and problem-solving abilities.
-            <br/><br/>
-            During my internship at <span className="text-pink-500 font-bold">FINTECK</span>, I worked on several projects, which included developing RESTful APIs using Node.js, creating interactive user interfaces with React.js, and managing databases with MongoDB. I gained valuable experience in both front-end and back-end development, and I am excited to bring this expertise to future projects.
-          </p>
+        <p className="text-lg md:text-xl mb-8">
+  Passionate about crafting seamless web applications, I am a MERN Full Stack Developer with a strong foundation in both front-end and back-end development. I’m diving deep into full-stack development with a specialization in 4.0 technologies. The coding challenges and hands-on projects have truly ignited my love for this field.
+  <br/><br/>
+  Preparing me to tackle new challenges in the tech world, equipping me with cutting-edge skills, I have developed several impressive projects, including:
+  <br/><br/>
+  📌 <span className="text-blue-500 font-bold">Netflix GPT</span>: A sophisticated application integrating AI capabilities.
+  <br/>
+  📌 <span className="text-teal-500 font-bold">Jobby App</span>: A comprehensive job search platform.
+  <br/>
+  📌 <span className="text-purple-500 font-bold">Nxt Watch</span>: A YouTube clone that showcases advanced React capabilities.
+  <br/>
+  📌 <span className="text-red-500 font-bold">E-commerce Store Website</span>: Modeled after Amazon, focusing on user experience and scalability.
+  <br/>
+  and more...
+  <br/><br/>
+  My expertise includes:
+  <br/><br/>
+  🧑‍💻 <span className="text-yellow-500 font-bold">Front-End Development</span>: Creating responsive, interactive web interfaces with HTML, CSS, JavaScript, and React.
+  <br/>
+  🧑‍💻 <span className="text-green-500 font-bold">Back-End Development</span>: Building robust server-side applications with Node.js, Express, and MongoDB.
+  <br/>
+  🌐 <span className="text-indigo-500 font-bold">Version Control</span>: Utilizing Git for efficient version control and collaboration.
+  <br/><br/>
+  I am continuously upgrading my skills to the latest technologies in software development, always eager to learn and adapt. I am looking for opportunities where I can contribute, grow, and make a meaningful impact.
+  <br/><br/>
+  🖇️ Let’s connect and explore how we can work together to build amazing digital experiences!
+  <br/><br/>
+  📌 <span className="text-pink-500 font-bold">Skills:</span>
+  <br/><br/>
+  🔗 <span className="text-yellow-500">Front-End:</span> HTML, CSS, JavaScript, React, Redux, Tailwind CSS
+  <br/>
+  🔗 <span className="text-green-500">Back-End:</span> Node.js, Express.js, MongoDB, RESTful APIs, SQL
+  <br/>
+  ⚙️ <span className="text-teal-500">Tools & Platforms:</span> Git, GitHub, Visual Studio Code, Docker
+</p>
+
           <a
             href={resumeLink}
             target="_blank"
