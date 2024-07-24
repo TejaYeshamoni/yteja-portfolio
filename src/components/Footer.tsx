@@ -5,11 +5,11 @@ const Footer: React.FC = () => {
   return (
     <section id="footer">
       <footer className="text-white bg-transparent font-thin">
-      <BackgroundBeams />
-      <div className="container mx-auto py-4 text-center">
-        <p className="text-sm">TEJA'S Portfolio. All rights reserved.</p>
-      </div>
-    </footer>
+        <BackgroundBeams />
+        <div className="container mx-auto py-4 text-center">
+          <p className="text-sm">TEJA&apos;S Portfolio. All rights reserved.</p>
+        </div>
+      </footer>
     </section>
   );
 };
