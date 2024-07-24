@@ -1,27 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node",
-        "config": {
-          "installCommand": "pnpm install --no-frozen-lockfile"
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ],
-    
-      "rewrites": [
-        {
-          "source": "/old-route",
-          "destination": "/new-route"
-        }
-      ]
-    
-  }
-  
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/old-route", "dest": "/new-route" }
+  ]
+}
